@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+
+}
+.topo{
+    width: 100%;
+    height: 20%;
+    border-bottom: solid 0.1em #006400;
+    
+    
+}
+.topo img{
+    width: 6em;
+    float: left;
+  
+    
+}
+.menu{
+    float:left;
+    
+   
+}
+.menu ul{
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+    margin: 1.8em;
+    
+}
+.menu ul li a{
+    font: 1.7em trebuchet MS;
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+.menu ul li a:hover{
+    color: #006400;
+}
+
+
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    color: #006400;
+}
+footer{
+   clear: both;
+}
