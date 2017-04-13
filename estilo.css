@@ -1,53 +1,107 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: black;
+
     
 
 }
 .topo{
     width: 100%;
-    height: 20%;
-    border-bottom: solid 0.1em #006400;
-    
-    
+    min-height: 18.5%;
+    border-bottom: solid 0.1em #cde276;
+    background: black;
+    position: fixed;
+    top: 0;
 }
+
+
 .topo img{
-    width: 6em;
+    width: 10em;
     float: left;
-  
-    
+    margin-left: 4%;
+    margin-top: 1.2%;
+    margin-bottom: 0.8%;
+    margin-right: 2.5%; 
 }
+
+
 .menu{
-    float:left;
-    
-   
+    float:left;  
 }
+
+
 .menu ul{
     text-align: center;
+    margin-top: 2.2%;
 }
+
+
 .menu ul li{
     display: inline-block;
     margin: 1.8em;
+
     
 }
+
+
 .menu ul li a{
-    font: 1.7em trebuchet MS;
-    color: aliceblue;
+    font: 1.3em Myriad Pro;
+    color: #FFFFFF;
     text-decoration: none;
+
     
 }
+
+
 .menu ul li a:hover{
-    color: #006400;
+    color: #cde276;
+    
 }
 
 
 .footer {
     position:absolute;
-    bottom:0;
+    bottom:;
     width:100%;
     color: #006400;
 }
+
+
 footer{
    clear: both;
 }
+
+
+/*Corpo*/
+.corpo {
+    height: 2000px;
+}
+/*Corpo*/
+
+
+/*Rodapé*/
+.rodape{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 8%;
+    border-top: solid 0.1em #cde276;
+    background: black;
+} 
+
+.rodape p{
+    text-align: center;
+    padding: 1em;
+    font: 1em Myriad Pro;
+    color: #FFFFFF;
+}
+
+.rodape p a{
+    text-decoration: none;
+    color: #cde276;
+ }
+ 
+ .rodape p a:hover{
+    color: #ffe600;
+ }   
+ /*Rodapé*/
